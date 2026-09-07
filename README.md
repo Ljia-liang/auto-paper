@@ -92,7 +92,7 @@ python scripts/build_plugin.py
 python scripts/build_plugin.py --check
 ```
 
-发布到 GitHub 前还应把插件 manifest 中的 `author`、`homepage` 和 `repository` 补成真实的发布者信息。当前目录尚未初始化为 Git 仓库，因此这些 URL 无法在本地自动推断。
+插件 manifest 已填写作者、主页和仓库信息；发布者后续可按需要更新版本号和项目元数据。
 
 ## 其他 Agent 和 DeepSeek Harness
 
@@ -115,6 +115,6 @@ python scripts/build_plugin.py --check
 ```powershell
 python scripts/build_plugin.py --check
 python -m pytest -q
-python "C:\Users\李佳亮\.codex\skills\.system\plugin-creator\scripts\validate_plugin.py" `
+python "<CODEX_SKILLS_ROOT>/plugin-creator/scripts/validate_plugin.py" `
   plugins/auto-paper-review
 ```
