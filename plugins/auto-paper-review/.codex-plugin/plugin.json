@@ -5,8 +5,10 @@
   "license": "MIT",
   "keywords": ["literature-review", "research", "mcp", "re-id"],
   "author": {
-    "name": "Auto Paper contributors"
+    "name": "Ljia-liang"
   },
+  "homepage": "https://github.com/Ljia-liang/auto-paper",
+  "repository": "https://github.com/Ljia-liang/auto-paper",
   "skills": "./skills/",
   "interface": {
     "displayName": "Auto Paper Review",
