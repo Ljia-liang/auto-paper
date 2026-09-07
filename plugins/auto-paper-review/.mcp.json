@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "auto-paper": {
+      "command": "python",
+      "args": ["scripts/launch_mcp.py"],
+      "cwd": ".",
+      "enabled": true,
+      "env_vars": ["OPENAI_API_KEY", "OPENAI_BASE_URL", "OPENAI_MODEL", "GITHUB_TOKEN", "AUTO_PAPER_DOMAIN", "AUTO_PAPER_DATA_DIR", "AUTO_PAPER_CACHE_DIR", "LOCALAPPDATA", "XDG_CACHE_HOME", "HOME", "USERPROFILE", "PATH"],
+      "startup_timeout_sec": 300,
+      "tool_timeout_sec": 3600
+    }
+  }
+}

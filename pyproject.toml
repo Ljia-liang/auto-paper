@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-paper"
+version = "0.1.0"
+description = "Evidence-first literature review workflow for a research direction"
+requires-python = ">=3.10"
+dependencies = [
+  "httpx>=0.27",
+  "pypdf>=5.0",
+  "pydantic>=2.7",
+  "pyyaml>=6.0",
+  "rich>=13.7,<14",
+]
+
+[project.optional-dependencies]
+export = ["openpyxl>=3.1", "reportlab>=4.0"]
+dev = ["pytest>=8.0"]
+agent = ["mcp>=1.0"]
+
+[project.scripts]
+auto-paper = "auto_paper.cli:main"
+auto-paper-mcp = "auto_paper.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+artifacts/
+.env
+*.egg-info/
+*.patch
+hil.txt
+regenerate.py
+sync.py
+.agents/
+agent/
+plugins/auto-paper-review/runtime/src/auto_paper/__pycache__/

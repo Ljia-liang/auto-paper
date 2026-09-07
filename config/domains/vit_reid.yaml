@@ -1,0 +1,19 @@
+name: visible-infrared cross-modal person re-identification
+aliases:
+  - visible-infrared person re-identification
+  - RGB-infrared person re-identification
+  - VI-ReID
+  - cross-modality person re-identification
+datasets:
+  - SYSU-MM01
+  - RegDB
+required_properties:
+  - open_access
+  - code_available
+metric_schema:
+  - rank_1
+  - rank_5
+  - rank_10
+  - mAP
+  - mINP
+default_years: 5

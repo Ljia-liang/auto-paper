@@ -1,0 +1,21 @@
+{
+  "name": "auto-paper-review",
+  "version": "0.1.0",
+  "description": "Evidence-first literature reviews for a research direction",
+  "license": "MIT",
+  "keywords": ["literature-review", "research", "mcp", "re-id"],
+  "author": {
+    "name": "Auto Paper contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Auto Paper Review",
+    "shortDescription": "Build evidence-first literature reviews in Codex.",
+    "longDescription": "Collect public papers with code, return full-text evidence, and let the host Agent synthesize methods, trends, and innovation candidates.",
+    "developerName": "Auto Paper contributors",
+    "category": "Productivity",
+    "capabilities": ["Research", "Evidence extraction"],
+    "defaultPrompt": ["Review a research direction with evidence.", "Compare methods on SYSU-MM01 and RegDB.", "Find evidence-backed innovation directions."]
+  },
+  "mcpServers": "./.mcp.json"
+}
