@@ -5,7 +5,7 @@
 
 Auto-Paper is an evidence-first literature-review agent available as a CLI, MCP server, and Codex plugin. It verifies paper accessibility and public code links, then produces survey, screening, method-evolution, and research-idea reports.
 
-它把原先需要手动完成的检索、筛选、代码链接核验、证据整理和报告导出串成一条可复跑的流程。当前预置领域是无监督可见光-红外跨模态行人重识别（USL-VI-ReID），主要数据集为 `SYSU-MM01` 和 `RegDB`；它目前是面向这个研究方向打磨的工作流，而不是开箱即用的通用综述系统。
+它把原先需要手动完成的检索、筛选、代码链接核验、证据整理和报告导出串成一条可复跑的流程。当前预置领域是无监督可见光-红外跨模态行人重识别（USL-VI-ReID），主要数据集为 `SYSU-MM01` 和 `RegDB`。
 
 ## 工作流
 
@@ -26,10 +26,6 @@ Auto-Paper is an evidence-first literature-review agent available as a CLI, MCP 
 - `创新方向.pdf`：候选研究方向及其文献依据
 
 ## 产出示例
-
-下面的终端图来自本仓库当前版本的 CLI 帮助、插件同步检查和测试结果。
-
-![CLI and repository checks](docs/assets/terminal-check.png)
 
 下面两页来自一次 USL-VI-ReID 调研产出，分别展示方法综述与候选创新方向。
 
